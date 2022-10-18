@@ -1,9 +1,13 @@
-import React from "react";
+import React, {useState} from "react";
 import "../styles/Projects.css"
 
 function Projects() {
 
-  
+  const [isClicked, setIsClicked]= useState(false);
+
+  function handleRoll(){
+    setIsClicked(true)
+  }
 
   return (
     <div className="projects_container">
@@ -47,9 +51,10 @@ function Projects() {
             Web application that utlizes IBM's Deep Blue AI to analyze and track selection patterns of past played numbers and frequency
             of.  Able to generate potential winning numbers with percent chance of winning given current trends.
           </p>
-          <a href="https://www.youtube.com/watch?v=eBGIQ7ZuuiU" target="_blank" rel="noreferrer">
+          <a href="https://www.youtube.com/watch?v=eBGIQ7ZuuiU" target="_blank" rel="noreferrer" onClick={handleRoll}>
           <img className="powerball_img" src="powerball.png" alt="powerball"/>
           </a>
+          {!isClicked?null:<p>I'm sorry I had to do that, but I could not resist the urge. But really, sharing powerball numbers, never!</p>}
         </div> 
       
     </div>
