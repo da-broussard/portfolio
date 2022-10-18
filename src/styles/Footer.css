@@ -1,0 +1,31 @@
+footer{
+    border-top: 3px solid #c2c5bb;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.github_footer{
+    width:50px;
+    background-color: white;
+    border-radius: 20px;
+    transition: .3s;
+}
+.github_footer:hover{
+    width:60px;
+}
+
+.linkedin_footer{
+    width:50px;
+    transition: .3s;
+}
+.linkedin_footer:hover{
+    width:60px;
+}
+
+.email_logo{
+    width: 50px;
+    transition: .3s;
+}
+.email_logo:hover{
+    width:60px;
+}

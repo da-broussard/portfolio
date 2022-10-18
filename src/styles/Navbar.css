@@ -1,0 +1,13 @@
+.main_navbar{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 3px solid #c2c5bb ;
+}
+
+.navbar_p{
+    transition: .3s;
+}
+.navbar_p:hover{
+    font-size: larger;
+    cursor:pointer
+}
