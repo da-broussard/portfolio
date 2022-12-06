@@ -18,7 +18,7 @@ function Projects() {
             A full ecommerce web application developed by myself and classmates
             for our shared love of football. Developed using React, Axios, Express, Express Sessions, PostgresSQL, Bcrypt.
           </p>
-          <a href="http://truthy-jerseyz-outlet.herokuapp.com/" target="_blank" rel="noreferrer">
+          <a href="https://jerseyzoutlet.onrender.com/" target="_blank" rel="noreferrer">
           <img  className="project_nfl" src="nfl-logo.png" alt="nfl-logo"/>
           </a>
         </div>
